@@ -10,16 +10,44 @@
 header img{
     height: 70px;
 }
+.offcanvas{
+    max-width: 125px;
+}
+.offcanvas-body{
+    background-color: #333331;
+}
 
 #home{
     background-image: url(../images/bg_header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-
 #home h1{
+    font-family: 'Rokkitt', serif;
+}
+#home h2{
     font-family: 'Rokkitt', serif;
 }
 #home p{
     font-family: 'Roboto', sans-serif;
 }
+.greenbouton{
+    background-color:#36c4c5
+}
 
+svg{
+    color: rgb(55, 68, 62);
+}
+
+#about{
+    background-image: urlurl('../bootstrap-challenge-the_mountain/images/bg_nuage.jpg');
+ 
+}
+h3,h4,.numbers{
+    font-family: 'Rokkitt', serif;}
+
+    .aboutsquare{
+        border: white solid 1px;
+    }
