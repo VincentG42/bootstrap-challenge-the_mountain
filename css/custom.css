@@ -1,0 +1,25 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rokkitt:wght@200&display=swap');
+
+
+  header p{
+    font-family: 'Roboto', sans-serif;
+}
+
+header img{
+    height: 70px;
+}
+
+#home{
+    background-image: url(../images/bg_header.jpg);
+}
+
+
+#home h1{
+    font-family: 'Rokkitt', serif;
+}
+#home p{
+    font-family: 'Roboto', sans-serif;
+}
+
