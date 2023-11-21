@@ -3,7 +3,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rokkitt:wght@200&display=swap');
 
 
-  header p{
+  body{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,6 +17,10 @@ header img{
     background-color: #333331;
 }
 
+
+h1,h2,h3,h4,.numbers{
+    font-family: 'Rokkitt', serif;
+}
 #home{
     background-image: url(../images/bg_header.jpg);
     background-position: center;
@@ -25,12 +29,7 @@ header img{
     height: 100vh;
 }
 
-#home h1{
-    font-family: 'Rokkitt', serif;
-}
-#home h2{
-    font-family: 'Rokkitt', serif;
-}
+
 #home p{
     font-family: 'Roboto', sans-serif;
 }
@@ -46,18 +45,16 @@ svg{
     background-image: url(../images/bg_nuage.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100dvw; 
+    background-size: cover; 
+}
  
-}
-h3,h4,.numbers{
-    font-family: 'Rokkitt', serif;
-}
 .aboutsquare{
     border: white solid 1px;
 }
 
 .girlbicycle{
-    width: 85%
+    width: 95%;
+    height: auto;
 }
 
 .bgappphoto{
@@ -65,4 +62,21 @@ h3,h4,.numbers{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bgcontact{
+    background-image: url(../images/bg_newsletter.jpg) ;
+    backdrop-filter: blur(5px);
+    background-size:inherit
+}
+
+#contact>div{
+    background-color: rgba(55, 68, 62, 0.495)
+}
+
+
+footer{
+    background-color: #24323b;
+}
+footer span{
+    color: #2dafb1;
 }
