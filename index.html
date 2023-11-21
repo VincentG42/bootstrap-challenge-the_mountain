@@ -62,8 +62,8 @@
   </header>
 
   <!--home-->
-  <section id="home">
-    <div class="text-center container-md d-flex flex-column justify-content-center vh-100 text-white">
+  <section id="home" class=" d-flex align-items-center">
+    <div class="text-center container-md text-white">
       <h2 class="fs-1 fw-bold">In the hall of the</h2>
       <h1 class="display-1 mb-4 fw-bold">Mountain King</h1>
       <p class=" fs-2 my-4">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
@@ -76,70 +76,136 @@
   </section>
 
   <!--features-->
-  <section id="features"class="py-5">
-    <div class="container">
-      <div class="row">
+  <section id="features" class="py-5 d-flex justify-content-center">
+    <div class="container row">
 
-        <article class=" col-md-4 text-center">
-          <svg xmlns="http://www.w3.org/2000/svg" height="50px"
-            viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-            <path
-              d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-          </svg>
-          <h3 class="my-3 fw-bold">Consecteur Risus</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dicta itaque! Unde aut officia quod
-            consequuntur earum distinctio! Inventore modi voluptatum fugiat dolorum, cupiditate ut perferendis ipsam
-            nihil explicabo ratione.</p>
-        </article>
-        
-        <article class=" col-md-4 text-center">
-          <svg xmlns="http://www.w3.org/2000/svg" height="50px"
-            viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-            <path
-              d="M149.1 64.8L138.7 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H373.3L362.9 64.8C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z" />
-          </svg>
-          <h3 class="my-3 fw-bold">Ultricies Aenean</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores eum, alias quasi blanditiis accusamus
-            doloremque nulla iusto quos. Quas debitis iure, voluptatibus deserunt quis accusamus quasi placeat. Nisi,
-            cumque quasi!</p>
-        </article>
-       
-        <article class=" col-md-4 text-center">
-          <svg xmlns="http://www.w3.org/2000/svg" height="50px"
+
+      <article class=" col-md-4 col-12 text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" height="50px"
+          viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <path
+            d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
+        </svg>
+        <h3 class="my-3 fw-bold">Consectetur Risus</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dicta itaque! Unde aut officia quod
+          consequuntur earum distinctio! Inventore modi voluptatum fugiat dolorum, cupiditate ut perferendis ipsam
+          nihil explicabo ratione.</p>
+      </article>
+
+      <article class=" col-md-4 col-12 text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" height="50px"
+          viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <path
+            d="M149.1 64.8L138.7 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H373.3L362.9 64.8C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z" />
+        </svg>
+        <h3 class="my-3 fw-bold">Ultricies Aenean</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores eum, alias quasi blanditiis accusamus
+          doloremque nulla iusto quos. Quas debitis iure, voluptatibus deserunt quis accusamus quasi placeat. Nisi,
+          cumque quasi!</p>
+      </article>
+
+      <article class=" col-md-4 col-12 text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" height="50px"
           viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
           <path
             d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z" />
         </svg>
-          <h3 class="my-3 fw-bold">Cras Sollicitudin</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A asperiores ducimus sit aliquid? Cumque porro
-            quisquam quidem. Laudantium praesentium earum exercitationem eos facilis placeat cupiditate, adipisci ipsam
-            aut deserunt minus!</p>
-        </article>
+        <h3 class="my-3 fw-bold">Cras Sollicitudin</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A asperiores ducimus sit aliquid? Cumque porro
+          quisquam quidem. Laudantium praesentium earum exercitationem eos facilis placeat cupiditate, adipisci ipsam
+          aut deserunt minus!</p>
+      </article>
 
+    </div>
+  </section>
+
+  <!--about-->
+  <section id="about" class="row">
+    <div class="bgnuage d-flex justify-content-center">
+      <div class="container-md row ">
+        <div class="col-12 col-md-6"></div>
+        <div class="p-5 bg-info bg-opacity-25 text-white col-12 col-md-6">
+          <h3 class="my-3 fs-2 fw-bold">Ligula Mattis Ornare Ultricies</h3>
+          <h4 class="mb-3 fw-bold"> Pellentesque Cursus Amet Parturient Etiam </h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro et maxime, id molestiae sunt asperiores
+            aliquid
+            dicta illo impedit rem. </p>
+          <div class="row d-flex text-center justify-content-between pt-3">
+            <div class=" col-3 aboutsquare ">
+              <h4 class="pt-3">Ultricies</h4>
+              <p class="fs-2 numbers">23,578</p>
+            </div>
+            <div class=" col-3 aboutsquare">
+              <h4 class="pt-3">Fermentum</h4>
+              <p class="fs-2 numbers">12,702</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
-    <!--about-->
-  </section id="about" class="d-flex "> 
-      <div class="container  p-5 bg-info bg-opacity-25 text-white col-4">
- 
-            <h3 class="my-3 fs-2 fw-bold">Ligula Mattis Ornare Ultricies</h3>
-            <h4 class="mb-3 fw-bold"> Pellentesque Cursus Amet Parturient Etiam </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro et maxime, id molestiae sunt asperiores aliquid dicta illo impedit rem. </p>
-            <div class="row d-flex text-center justify-content-between pt-3">
-              <div class=" col-3 aboutsquare ">
-                <h4 class="pt-3">Ultricies</h4>
-                <p class="fs-2 numbers">23,578</p>                
-              </div>
-              <div class=" col-3 aboutsquare">
-                <h4 class="pt-3">Fermentum</h4>
-                <p class="fs-2 numbers">12,702</p>
-              </div>
-
-
-      </div>
-
   </section>
+
+  <!--blog-->
+  <section id="blog" class="">
+    <div class=" container d-flex align-items-center">
+      <div class="col-md-6">
+        <h3 class="fw-bold fs-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore laboriosam ex mollitia sed error eum, delectus ab molestias veritatis incidunt, quaerat aut labore voluptatibus sint iure. Explicabo ad nisi perspiciatis quas architecto. Cumque eum necessitatibus, officia aut odit totam explicabo impedit ducimus nobis deleniti ut quas eligendi doloribus beatae, incidunt voluptates obcaecati sequi! Accusamus explicabo, quos odio reprehenderit voluptate earum voluptatibus, consequatur aut repellendus fugit magnam porro sint esse vitae, ipsa impedit modi. Quasi doloremque quis iusto! Culpa, nihil voluptates.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore laboriosam ex mollitia sed error eum, delectus ab molestias veritatis incidunt, quaerat aut labore voluptatibus sint iure. Explicabo ad nisi perspiciatis quas architecto. Cumque eum necessitatibus, officia aut odit totam explicabo impedit ducimus nobis deleniti ut quas eligendi doloribus beatae, incidunt voluptates obcaecati sequi! Accusamus explicabo, quos odio reprehenderit voluptate earum voluptatibus, consequatur aut repellendus fugit magnam porro sint esse vitae, ipsa impedit modi. Quasi doloremque quis iusto! Culpa, nihil voluptates.</p>
+        <a class="btn btn-danger rounded-0 texte-white d-flex align-items-center col-3" href="#" role="button">
+          Take a Look
+          <svg xmlns="http://www.w3.org/2000/svg" height="15px"
+            viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.-->
+            <path
+              d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM294.6 135.1c-4.2-4.5-10.1-7.1-16.3-7.1C266 128 256 138 256 150.3V208H160c-17.7 0-32 14.3-32 32v32c0 17.7 14.3 32 32 32h96v57.7c0 12.3 10 22.3 22.3 22.3c6.2 0 12.1-2.6 16.3-7.1l99.9-107.1c3.5-3.8 5.5-8.7 5.5-13.8s-2-10.1-5.5-13.8L294.6 135.1z" />
+          </svg>
+        </a> 
+      </div>
+      <div class="col-md-6 p-3 d-flex justify-content-end">
+        <img src="./images/1200.jpeg" alt="girlbicycle" class="girlbicycle">
+      </div>
+    </div>
+  </section>
+
+  <!--history-->
+  <section id="history" class="row">
+    <div class="bgappphoto">
+      <div class="container d-flex">
+        <div class="bg-info bg-opacity-25 p-5">
+          <h3 class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi harum deleniti est corporis hic impedit voluptate possimus inventore vero assumenda.</h3>
+        <figure>
+          <blockquote class="blockquote text-white">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, beatae! Ab quaerat ratione neque tenetur alias repudiandae odit hic voluptatum recusandae est esse assumenda placeat perspiciatis facere atque mollitia, aspernatur laudantium, velit ullam? Aliquam cum temporibus nemo quis dolor! Accusamus dignissimos deleniti ratione laudantium eius quae nisi quibusdam corporis error.</p>          </blockquote>
+          <figcaption class="blockquote-footer text-white fs-2">
+            Someone famous
+          </figcaption>
+          <div class="d-flex flex-column">
+          <cite title="Source Title" class="text-white">Source Title</cite>
+          <cite title="Source Title" class="text-white">Source Title</cite>
+          <div></div>
+        </figure>
+        </div>
+        <div class="col-md-6 col-12"></div>
+      </div>
+    </div>
+  </section>
+
+  <!--photos-->
+  <section id="photos">
+    <div class="container">
+      <img src="./images/300.jpeg" alt="baff" class="col-12">
+      <img src="./images/776.jpeg" alt="Mountain" class="col-12">
+      <div class="row">
+      <img src="./images/800.jpeg" alt="bridge" class="col-12">
+      <img src="./images/400.jpeg" alt="sunrise" class="col-12">
+      <img src="./images/2476.jpeg" alt="camera" class="col-12">
+    </div>
+      <img src="./images/439.jpeg" alt="cashed_planed" class="col-12">
+      <img src="./images/140.jpeg" alt="hotel" class="col-12">
+
+    </div>
+  </section>
+
 
 
 

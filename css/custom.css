@@ -22,6 +22,7 @@ header img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 #home h1{
@@ -41,13 +42,27 @@ svg{
     color: rgb(55, 68, 62);
 }
 
-#about{
-    background-image: urlurl('../bootstrap-challenge-the_mountain/images/bg_nuage.jpg');
+.bgnuage{
+    background-image: url(../images/bg_nuage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100dvw; 
  
 }
 h3,h4,.numbers{
-    font-family: 'Rokkitt', serif;}
+    font-family: 'Rokkitt', serif;
+}
+.aboutsquare{
+    border: white solid 1px;
+}
 
-    .aboutsquare{
-        border: white solid 1px;
-    }
+.girlbicycle{
+    width: 85%
+}
+
+.bgappphoto{
+    background-image: url(../images/bg_appareil_photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
